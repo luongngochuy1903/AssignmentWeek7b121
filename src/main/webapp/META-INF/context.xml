@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+  <Resource
+      name="jdbc/murach"
+      auth="Container"
+      type="javax.sql.DataSource"
+      maxTotal="20"
+      maxIdle="5"
+      maxWaitMillis="10000"
+      username="dbuser"
+      password="dbpassword"
+      driverClassName="com.mysql.cj.jdbc.Driver"
+      url="jdbc:mysql://db:3306/murach?useSSL=false&amp;allowPublicKeyRetrieval=true&amp;serverTimezone=UTC"/>
+</Context>
